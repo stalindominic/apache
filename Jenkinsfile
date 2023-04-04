@@ -5,6 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                sh 'git pull https://github.com/stalindominic/apache.git'
+                 }
             }
         stage('install') { 
             steps {
