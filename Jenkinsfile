@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-               git 'https://github.com/stalindominic/apache.git'
+               sh 'git pull git@https://github.com/stalindominic/apache.git'
             }
         }
     }
