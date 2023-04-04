@@ -10,8 +10,7 @@ pipeline {
         stage('install') { 
             steps {
                 sh 'ansible-playbook /ansible/config.yml -i /ansible/hosts'
-            }
-                }
+                            
             }
         }
     }
